@@ -20,20 +20,25 @@
 
 
 version: 1
-frontend:
-  phases:
-    preBuild:
-      commands:
-        - echo "Starting pre-build phase..."
-        - npm install
-    build:
-      commands:
-        - echo "Starting build phase..."
-        - npm run build
-  artifacts:
-    baseDirectory: .next
-    files:
-      - '**/*'
-  cache:
-    paths:
-      - node_modules/**/*
+applications:
+  - appRoot: .  # Root directory of your application
+    env:
+      variables:
+        AMPLIFY_MONOREPO_APP_ROOT: .
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - echo "Starting pre-build phase..."
+            - npm install
+        build:
+          commands:
+            - echo "Starting build phase..."
+            - npm run build
+      artifacts:
+        baseDirectory: .next
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - node_modules/**/*
