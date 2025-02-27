@@ -14,7 +14,7 @@ const featuresData: Feature[] = [
     ),
     title: "Roofing",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "May not even need this, could be a tile/card linking to each photo gallery section",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const featuresData: Feature[] = [
     ),
     title: "Privacy Fences",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "May not even need this, could be a tile/card linking to each photo gallery section",
   },
   {
     id: 3,
@@ -44,7 +44,7 @@ const featuresData: Feature[] = [
     ),
     title: "Painting",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "May not even need this, could be a tile/card linking to each photo gallery section",
   },
   {
     id: 4,
@@ -59,7 +59,7 @@ const featuresData: Feature[] = [
     ),
     title: "Windows",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "May not even need this, could be a tile/card linking to each photo gallery section",
   },
   {
     id: 5,
@@ -74,7 +74,7 @@ const featuresData: Feature[] = [
     ),
     title: "Doors",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "May not even need this, could be a tile/card linking to each photo gallery section",
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ const featuresData: Feature[] = [
     ),
     title: "Garage Doors",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "May not even need this, could be a tile/card linking to each photo gallery section",
   },
 ];
 export default featuresData;
