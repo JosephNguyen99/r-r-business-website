@@ -32,14 +32,54 @@
   }
 }
 
-.logo-image {
-  width: 50px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  /* max-width: 100%; Ensure it doesn't exceed the container */
+/*.logo-image {
+  width: 50px; 
+  height: auto; 
+  max-width: 100%; Ensure it doesn't exceed the container
 }
+
 
 .header-logo {
   display: flex;
   align-items: center;
   justify-content: center;
+} */
+
+/* styles/index.css
+.summarySection {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.aboutButton {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+} */
+
+.about-section-one, .about-section-two, .team-section, .testimonials {
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.about-section-one h2, .about-section-two h2, .team-section h2, .testimonials h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-section-one p, .about-section-two p, .team-section p, .testimonials p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.team-members, .testimonials-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }

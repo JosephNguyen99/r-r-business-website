@@ -28,8 +28,9 @@ const Footer = () => {
                 </Link> */}
                 <h2 className="text-xl font-semibold text-body-color dark:text-body-color-dark mb-4">Let's talk!</h2>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  (316)-207-6756<br />
-                  <a href="mailto:rrnguyen@gmail.com" className="text-primary hover:underline">rrnguyen@gmail.com</a><br />
+                  <a href="tel:3162076756" /*className="text-primary hover:underline"*/>316-207-6756</a><br />
+                  {/* 316-207-6756<br /> */}
+                  <a href="mailto:rrnguyen@gmail.com" /*className="text-primary hover:underline"*/>rrnguyen@gmail.com</a><br />
                   Wichita, KS
                 </p>
                 {/* <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
@@ -38,7 +39,7 @@ const Footer = () => {
                 </p> */}
                 <div className="flex items-center">
                   <a
-                    href="/"
+                    href="https://www.facebook.com/profile.php?id=61552441332638"
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"

@@ -11,6 +11,18 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
+                src="/closet.png"
+                alt="closet"
+                fill
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              />
+              <Image
+                src="/closet.png"
+                alt="closet"
+                fill
+                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+              />
+              {/* <Image
                 src="/images/about/about-image-2.svg"
                 alt="about image"
                 fill
@@ -21,37 +33,21 @@ const AboutSectionTwo = () => {
                 alt="about image"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
-              />
+              /> */}
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Why Choose Us
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-              <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
-              </div>
-              <div className="mb-1">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
-                </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
-                </p>
+                <ul className="list-disc list-inside text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  <li className="mb-4"><strong>Easy Financing:</strong> We offer flexible financing options to make your projects affordable.</li>
+                  <li className="mb-4"><strong>Free, At Home Consultations:</strong> Our experts will visit your home to provide personalized consultations at no cost.</li>
+                  <li className="mb-4"><strong>Award Winning Service:</strong> Our commitment to excellence has earned us numerous awards and recognitions.</li>
+                  <li className="mb-4"><strong>Licensed & Insured:</strong> We are fully licensed and insured, ensuring peace of mind for our clients.</li>
+                </ul>
               </div>
             </div>
           </div>

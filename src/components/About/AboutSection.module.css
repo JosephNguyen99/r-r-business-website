@@ -1,0 +1,17 @@
+/* src/components/BusinessSummary.module.css */
+.summarySection {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .aboutButton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
